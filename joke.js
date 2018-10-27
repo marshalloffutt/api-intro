@@ -1,4 +1,4 @@
-const loadAPI = () => {
+const loadJoke = () => {
     return new Promise((resolve, reject) => {
         $.ajax({
             url: 'https://icanhazdadjoke.com/',
@@ -9,7 +9,7 @@ const loadAPI = () => {
             .done((data) => {
                 resolve(data);
                 console.log(data);
-                $("#api").html(data.joke);
+                $("#joke").html(data.joke);
             })
             .fail((error) => {
                 reject(error);
@@ -17,4 +17,4 @@ const loadAPI = () => {
     });
 }
 
-loadAPI();
+loadJoke();
