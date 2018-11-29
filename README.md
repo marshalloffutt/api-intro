@@ -4,8 +4,8 @@
 On page load, a random dad joke is printed to the dom. This was an in-class exercise following a brief introductory lecture on API's.
 
 ## Screenshots
-![on page load](./pic1.png)
-![on refresh](./pic2.png)
+![on page load](pic1.png)
+![on refresh](pic2.png)
 
 ## Acknowledgements
 This app uses the [icanhazdadjoke api](https://icanhazdadjoke.com/api).
